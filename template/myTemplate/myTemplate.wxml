@@ -1,0 +1,9 @@
+<template name="myTemplate">
+  <view>
+    <view class="title">这是我自定义的模板</view>
+    <view class="userInfo">
+      <view class="userName">姓名:{{username}}</view>
+      <view class="age">年龄:{{age}}</view>
+    </view>
+  </view>
+</template>

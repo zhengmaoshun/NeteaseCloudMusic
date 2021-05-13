@@ -1,0 +1,123 @@
+/* pages/search/search.wxss */
+.searchContainer{
+  padding: 0 20rpx;
+}
+/* 头部区域 start */
+.header{
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 10rpx 0; 
+}
+.searchInput{
+  position: relative;
+  flex: 1;
+  background: rgba(237, 237, 237, 0.3);
+  border-radius: 30rpx;
+}
+.clear{
+  position: absolute;
+  right: 30rpx;
+  top: 0;
+  z-index: 10;
+  font-size: 30rpx;
+}
+.cancel{
+  width: 100rpx;
+  text-align: center; 
+}
+.searchIcon{
+  position: absolute;
+  left: 15rpx;
+}
+.searchInput input{
+  margin-left: 50rpx;  
+  height: 60rpx;
+}
+.placeholder{
+  /* color: #d43c33; */
+  font-size: 28rpx;
+}
+/* 头部区域 end */
+
+/* 热搜榜 start */
+.hotContainer{
+  margin-top: 30rpx;
+}
+.hotContainer .title{
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.hotList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotList .hotItem{
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+}
+.hotList .hotItem .order{
+  margin: 0 10rpx;
+}
+.hotList .hotItem .iconImg{
+  width: 35rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+/* 热搜榜 end */
+
+/* 搜索内容展示 start */
+.searchContent{
+  color: #d43c33;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  border-bottom: 1rpx solid #d43c33;
+}
+.searchItem{
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.searchItem .content{
+  flex: 1;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #eeeeee;
+  font-size: 26rpx;
+}
+/* 搜索内容展示 end */
+
+/* 搜索历史记录 start */
+.history{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50rpx;
+  margin: 20rpx 0;
+}
+.history .title{
+  font-size: 28rpx;
+  height: 50rpx;
+}
+.history .historyItem{
+  height: 50rpx;
+  font-size: 26rpx;
+  background: #ededed;
+  margin-left: 20rpx;
+  padding: 0 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.history .delete{
+  position: absolute;
+  bottom: 10rpx;
+  right: 15rpx;
+  font-size: 36rpx;
+}
+/* 搜索历史记录 end */
+
+/* 头部区域 end */
